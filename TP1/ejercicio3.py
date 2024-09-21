@@ -3,6 +3,7 @@ if dia% 2==0:
     aula= "A-300"
 else:
     aula= "A-315"
+print("====================== Aulas ======================\n")
 print("el aula asignada para el dia", dia, "es:", aula)
 #descuento cuota
 valor_cuota= float(input("ingrese el valor de la cuota: "))
@@ -15,11 +16,12 @@ else:
 cuota_final = valor_cuota - descuento
 print(cuota_final)
 #costo_de estacionamiento
-medio_transporte = input("ingrese el medio de transporte (auto, moto, bicicleta: )")
+medio_transporte = input("ingrese el medio de transporte (auto, moto, bicicleta: )\n")
 if medio_transporte == "auto":
     costo_estacionamiento = 300
 elif medio_transporte == "moto":
     costo_estacionamiento = 300
 elif medio_transporte == "bicicleta":
     costo_estacionamiento = 50
+print("========= Descuentos y estacionamientos ==========\n")
 print("el costo de estacionamiento es: ", costo_estacionamiento)
